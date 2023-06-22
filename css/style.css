@@ -1,15 +1,28 @@
+
+.dark {
+   background-color: black;
+}
+
+.dark * {
+   color: white;
+}
+
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
-
 body {
-   height: 4000px;
+   background-color: white;
+   height: 4500px;
 }
 
 .head {
-   background-color: #FAFAFA;
+   position: sticky;
+   top: 0px;
+   width: 100%;
+   background-color: white;
 }
 
 .header-wrapper {
@@ -21,7 +34,7 @@ body {
    position: absolute;
    left: 195px;
    top:20px;   
-   color: black;
+   color: var(--color);
    text-decoration: none;
 }
 
@@ -71,241 +84,37 @@ body {
 }
 
 
-
-
-
-
-
-
-.img2 {
-  
-   justify-content: space-between;
-   background-image: none;
-   margin-left: 140px;
-   margin-right: 0px;
-   margin-top: 80px;
-   marginbottom: -80px;
-}
-
-.intro-wrapper {
-   display: flex;
-   align-items: center;
-}
-
-.intro-title {
-   
-   margin-top: -550px;
-   margin-left: 270px;
-   font-weight: 800;
-   font-size: 58px;
-   line-height: 80px;
-   color: #252B42;
-  
-}
-
-.intro-text {
-   
-   margin-top: 20px;
-   margin-left: 280px;
-   line-height: 30px;
-   font-size: 20px;
-   color: #737373;
-}
-
-.get {
-   position: absolute;
-   padding: 14px 36px;
-   left: 280px;
-   top: 500px;
-   width: 185px;
-   height: 48px;
-   text-decoration: none ;
-   border: none;
-   color: #00A0C1;
-   border: #00A0C1;
-   background: #FFA62B;
-   border-radius: 37px;
-}
-
-.get2 {
-   position: absolute;
-   padding: 14px 36px;
-   left: 490px;
-   top: 500px;
-   width: 185px;
-   height: 48px;
-   text-decoration: none ;
-   border: none;
-   color: #00A0C1;
-   border: #00A0C1;
-   border-radius: 37px;
-}
-
-
-
-
-
-
-
-
-
-
-
-.marketing {
-   position: absolute;
-   margin-top: 200px;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   padding: 35px 40px;
-   gap: 10px;
-   width: 328px;
-   left: 300px;
-   top: 430px;
-   height: 210px;
-   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-   background: #ffffff;
-}
-
-.h2 {
-   margin-top: 10px;
-}
-
-p {
-   line-height: 20px;
-   font-size: 14px;
-   color:  #737373;;
-}
-
-.firms {
-   position: absolute;
-   margin-top: 200px;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   padding: 35px 40px;
-   gap: 10px;
-   width: 328px;
-   left: 700px;
-   top: 430px;
-   height: 210px;
-   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-   background: #ffffff;
-}
-
-.p2 {
-   line-height: 20px;
-   font-size: 14px;
-}
-
-.digital {
-   position: absolute;
-   margin-top: 200px;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   padding: 35px 40px;
-   gap: 10px;
-   width: 328px;
-   left: 1100px;
-   top: 430px;
-   height: 210px;
-   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-   color: white;
-   background: #00A0C1;
-}
-
-.p3 {
-   line-height: 20px;
-   font-size: 14px;
-   color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.h1h {
-  font-size: 50px;
-  margin-top: 300px;
-  text-align: center;
-}
-
-.problem {
-   margin-top: 10px;
-   text-align: center;
-   color: #737373;
-}
-
-.done {
+.qwert {
+   width: 1300px;
+   height: 200px;
    margin-left: 300px;
-   max-width: 230px;
-   margin-top: 50px;
-   height: 209px;
-   text-align: center;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.don {
-   margin-top: 37px;
-}
-
-.happy {
-   margin-left: 600px;
-   max-width: 230px;
-   margin-top: -210px;
-   height: 209px;
-   text-align: center;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.award {
-   margin-left: 900px;
-   max-width: 230px;
-   margin-top: -210px;
-   height: 209px;
-   text-align: center;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.cases {
-   margin-left: 1200px;
-   max-width: 230px;
-   margin-top: -210px;
-   height: 209px;
-   text-align: center;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.little {
-   margin-top: 80px;
-}
-
-.little2 {
    margin-top: 100px;
+   background-color: #16697A;
+   color: white;
 }
 
-.little4 {
-   margin-top: 87px;
+.qwert h1 {
+   margin-left: 50px;
+   font-size: 40px
 }
 
-.K {
-   font-size: 40px;
-   margin-top: -80px;
+.email {
+   margin-left: 600px;
+   margin-bottom: 100px;
 }
+
+.subs {
+   width: 150px;
+   height: 50px;
+   margin-top: 00px;
+   margin-bottom: -100px;
+   margin-left: 1000px;
+   background-color: #FFA62B;
+}
+
+
+
+
 
 
 
@@ -370,7 +179,7 @@ p {
 }
 
 .bosh {
-  text-align: center;
+   text-align: center;
    font-size: 20px;
 }
 
@@ -379,23 +188,6 @@ p {
    text-align: center;
    font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .business {
@@ -447,7 +239,7 @@ p {
 .d {
    margin-left: 1000px;
    margin-top: 50px;
-  
+   
 }
 
 .f {

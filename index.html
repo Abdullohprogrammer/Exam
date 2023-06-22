@@ -6,8 +6,14 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Exam</title>
    <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="css/home.css">
+   <link rel="stylesheet" href="css/about.css">
+   <link rel="stylesheet" href="css/advice.css">
 </head>
 <body>
+   <button id="dark-light">
+      <img src="images/dark.svg" alt="" />
+   </button>
    <header class="head">
       <div class="header-wrapper">
          <a href="./index.html">
@@ -17,14 +23,14 @@
             <ul>
                <a class="home" href="#"><b>Home</b></a>
                <a class="about" href="#about-us">About</a>
-               <a class="advice" href="#">Advice</a>
-               <a class="services" href="#">Services</a>
-               <a class="contact" href="#">Contact</a>
+               <a class="advice" href="#advice">Advice</a>
+               <a class="services" href="#business">Services</a>
+               <a class="contact" href="#contact">Contact</a>
             </ul>
-            <img class="img2" src="./images/cover.svg" alt="">
          </nav>
       </div>
    </header>
+   <img class="img2" src="./images/cover.svg" alt="">
    <main>
       <section class="intro">
          <div class="intro-wrapper container">
@@ -72,7 +78,7 @@ but things on a small scale.
       <div class="cases"><img class="don" src="./images/cases.png" alt=""><p class="little4">CASES DONE</p><h1 class="K">1.5K</h1></div>
    </section>
    <section>
-      <h1 class="aa">ADVICE</h1>
+      <h1 id="advice" class="aa">ADVICE</h1>
       <p class="bb">Problems trying to resolve the conflict between <br>
          the two major realms of Classical physics: Newtonian mechanics </p>
       <div class="truth">
@@ -105,7 +111,7 @@ but things on a small scale.
       </div>
 
    </section>
-   <section>
+   <section id="business">
       <div><h1 class="business">BUSINESS SERVICES</h1></div>
       <p class="businessp">Problems trying to resolve the conflict between the two major realms <br>
          of Classical physics: Newtonian mechanics.</p>
@@ -129,7 +135,14 @@ but things on a small scale.
       <img class="rasmlar" src="/images/a5.png" alt="">
       <img class="rasmlar" src="./images/a6.png" alt="">
    </section>
-   <section class="out">
+   <section class="qwert">
+      <label class="email"  for=""></label>
+      <input placeholder="Your email" type="email">
+      <h1>Subscribe For Latest <br>
+         Newsletter</h1>
+         <button class="subs">Subscribe</button>
+      </section>
+   <section id="contact" class="out">
       <h1 class="qwerty">CONTACT US</h1>
       <p class="p5">Problems trying to resolve the conflict between <br>  the two major realms of Classical physics: Newtonian mechanics </p>
       <div class="telll">
@@ -153,7 +166,8 @@ but things on a small scale.
          <h3>Get Support</h3>
          <button class="teleg">Submit Request</button>
       </div>
-
    </section>
+   <script src="./main/main.js"></script>
+   <script src="js/main.js"></script>
 </body>
 </html>
